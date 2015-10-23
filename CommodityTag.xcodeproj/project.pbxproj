@@ -15,6 +15,17 @@
 		604D93D51BD9E2EE00C55A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604D93D31BD9E2EE00C55A98 /* LaunchScreen.storyboard */; };
 		604D93E01BD9E2EF00C55A98 /* CommodityTagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93DF1BD9E2EF00C55A98 /* CommodityTagTests.m */; };
 		604D93EB1BD9E2EF00C55A98 /* CommodityTagUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93EA1BD9E2EF00C55A98 /* CommodityTagUITests.m */; };
+		604D93FD1BD9E3E600C55A98 /* CommodityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93FC1BD9E3E600C55A98 /* CommodityModel.m */; settings = {ASSET_TAGS = (); }; };
+		604D94001BD9E3F200C55A98 /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93FF1BD9E3F200C55A98 /* TagModel.m */; settings = {ASSET_TAGS = (); }; };
+		604D94031BDA06EE00C55A98 /* CommodityTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D94021BDA06EE00C55A98 /* CommodityTagView.m */; settings = {ASSET_TAGS = (); }; };
+		604D940A1BDA10E900C55A98 /* TagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D94081BDA10E900C55A98 /* TagCell.m */; settings = {ASSET_TAGS = (); }; };
+		604D940B1BDA10E900C55A98 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D94091BDA10E900C55A98 /* TagCell.xib */; settings = {ASSET_TAGS = (); }; };
+		604D940D1BDA140700C55A98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604D940C1BDA140700C55A98 /* Foundation.framework */; };
+		604D94101BDA156600C55A98 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D940F1BDA156600C55A98 /* NSString+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		604D94121BDA15F900C55A98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604D94111BDA15F900C55A98 /* CoreGraphics.framework */; };
+		604D94141BDA166300C55A98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604D94131BDA166300C55A98 /* UIKit.framework */; };
+		604D941D1BDA314B00C55A98 /* CollectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D941B1BDA314B00C55A98 /* CollectionHeadView.m */; settings = {ASSET_TAGS = (); }; };
+		604D941E1BDA314B00C55A98 /* CollectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D941C1BDA314B00C55A98 /* CollectionHeadView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,23 @@
 		604D93E61BD9E2EF00C55A98 /* CommodityTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommodityTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		604D93EA1BD9E2EF00C55A98 /* CommodityTagUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommodityTagUITests.m; sourceTree = "<group>"; };
 		604D93EC1BD9E2EF00C55A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604D93FB1BD9E3E600C55A98 /* CommodityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityModel.h; sourceTree = "<group>"; };
+		604D93FC1BD9E3E600C55A98 /* CommodityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommodityModel.m; sourceTree = "<group>"; };
+		604D93FE1BD9E3F200C55A98 /* TagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagModel.h; sourceTree = "<group>"; };
+		604D93FF1BD9E3F200C55A98 /* TagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagModel.m; sourceTree = "<group>"; };
+		604D94011BDA06EE00C55A98 /* CommodityTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityTagView.h; sourceTree = "<group>"; };
+		604D94021BDA06EE00C55A98 /* CommodityTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommodityTagView.m; sourceTree = "<group>"; };
+		604D94071BDA10E900C55A98 /* TagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagCell.h; sourceTree = "<group>"; };
+		604D94081BDA10E900C55A98 /* TagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagCell.m; sourceTree = "<group>"; };
+		604D94091BDA10E900C55A98 /* TagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell.xib; sourceTree = "<group>"; };
+		604D940C1BDA140700C55A98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		604D940E1BDA156600C55A98 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		604D940F1BDA156600C55A98 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		604D94111BDA15F900C55A98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		604D94131BDA166300C55A98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		604D941A1BDA314B00C55A98 /* CollectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeadView.h; sourceTree = "<group>"; };
+		604D941B1BDA314B00C55A98 /* CollectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeadView.m; sourceTree = "<group>"; };
+		604D941C1BDA314B00C55A98 /* CollectionHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeadView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604D94141BDA166300C55A98 /* UIKit.framework in Frameworks */,
+				604D94121BDA15F900C55A98 /* CoreGraphics.framework in Frameworks */,
+				604D940D1BDA140700C55A98 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,9 @@
 		604D93B91BD9E2EE00C55A98 = {
 			isa = PBXGroup;
 			children = (
+				604D94131BDA166300C55A98 /* UIKit.framework */,
+				604D94111BDA15F900C55A98 /* CoreGraphics.framework */,
+				604D940C1BDA140700C55A98 /* Foundation.framework */,
 				604D93C41BD9E2EE00C55A98 /* CommodityTag */,
 				604D93DE1BD9E2EE00C55A98 /* CommodityTagTests */,
 				604D93E91BD9E2EF00C55A98 /* CommodityTagUITests */,
@@ -101,6 +135,7 @@
 		604D93C41BD9E2EE00C55A98 /* CommodityTag */ = {
 			isa = PBXGroup;
 			children = (
+				604D93F81BD9E36200C55A98 /* CommodityTagView */,
 				604D93C81BD9E2EE00C55A98 /* AppDelegate.h */,
 				604D93C91BD9E2EE00C55A98 /* AppDelegate.m */,
 				604D93CB1BD9E2EE00C55A98 /* ViewController.h */,
@@ -138,6 +173,43 @@
 				604D93EC1BD9E2EF00C55A98 /* Info.plist */,
 			);
 			path = CommodityTagUITests;
+			sourceTree = "<group>";
+		};
+		604D93F81BD9E36200C55A98 /* CommodityTagView */ = {
+			isa = PBXGroup;
+			children = (
+				604D940E1BDA156600C55A98 /* NSString+Extension.h */,
+				604D940F1BDA156600C55A98 /* NSString+Extension.m */,
+				604D93FA1BD9E37400C55A98 /* Model */,
+				604D93F91BD9E36C00C55A98 /* VIew */,
+			);
+			name = CommodityTagView;
+			sourceTree = "<group>";
+		};
+		604D93F91BD9E36C00C55A98 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				604D94011BDA06EE00C55A98 /* CommodityTagView.h */,
+				604D94021BDA06EE00C55A98 /* CommodityTagView.m */,
+				604D94071BDA10E900C55A98 /* TagCell.h */,
+				604D94081BDA10E900C55A98 /* TagCell.m */,
+				604D94091BDA10E900C55A98 /* TagCell.xib */,
+				604D941A1BDA314B00C55A98 /* CollectionHeadView.h */,
+				604D941B1BDA314B00C55A98 /* CollectionHeadView.m */,
+				604D941C1BDA314B00C55A98 /* CollectionHeadView.xib */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		604D93FA1BD9E37400C55A98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				604D93FB1BD9E3E600C55A98 /* CommodityModel.h */,
+				604D93FC1BD9E3E600C55A98 /* CommodityModel.m */,
+				604D93FE1BD9E3F200C55A98 /* TagModel.h */,
+				604D93FF1BD9E3F200C55A98 /* TagModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604D940B1BDA10E900C55A98 /* TagCell.xib in Resources */,
 				604D93D51BD9E2EE00C55A98 /* LaunchScreen.storyboard in Resources */,
+				604D941E1BDA314B00C55A98 /* CollectionHeadView.xib in Resources */,
 				604D93D21BD9E2EE00C55A98 /* Assets.xcassets in Resources */,
 				604D93D01BD9E2EE00C55A98 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604D940A1BDA10E900C55A98 /* TagCell.m in Sources */,
 				604D93CD1BD9E2EE00C55A98 /* ViewController.m in Sources */,
+				604D93FD1BD9E3E600C55A98 /* CommodityModel.m in Sources */,
 				604D93CA1BD9E2EE00C55A98 /* AppDelegate.m in Sources */,
+				604D941D1BDA314B00C55A98 /* CollectionHeadView.m in Sources */,
+				604D94031BDA06EE00C55A98 /* CommodityTagView.m in Sources */,
+				604D94001BD9E3F200C55A98 /* TagModel.m in Sources */,
 				604D93C71BD9E2EE00C55A98 /* main.m in Sources */,
+				604D94101BDA156600C55A98 /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
