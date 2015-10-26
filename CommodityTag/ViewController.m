@@ -15,6 +15,8 @@
 
 @property (nonatomic, strong) NSMutableArray *commModelArray;
 
+@property (nonatomic, strong) UIView *backView;
+
 @end
 
 @implementation ViewController
@@ -22,8 +24,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.view setBackgroundColor:[UIColor purpleColor]];
     
-    CommodityTagView *commView = [[CommodityTagView alloc]initWithFrame:CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    CommodityTagView *commView = [[CommodityTagView alloc]initWithFrame:CGRectMake(0, 150, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     
     //先在控制器中产生数据
     [self initCommModelArray];
@@ -31,9 +34,26 @@
     //初始化view
     [commView initCollectionViewWithModel:self.commModelArray];
 
+    [self.view addSubview:self.backView];
+    
     //加入view中
     [self.view addSubview:commView];
     
+}
+
+
+- (UIView *)backView{
+
+    if (!_backView ) {
+        _backView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width)];
+        
+        [_backView setBackgroundColor:[UIColor blackColor]];
+
+        [_backView setAlpha:0.6];
+        
+    }
+    
+    return _backView;
 }
 
 /*

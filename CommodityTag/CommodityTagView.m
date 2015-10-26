@@ -16,8 +16,9 @@
 #define fontSize 12
 #define HorizontalMargin 14
 #define margin 8
-
 #define cellHeight 28
+
+#define RedColor [UIColor colorWithRed:254.0/255.0 green:91.0/255.0 blue:97.0/255.0 alpha:1.0]
 
 @implementation CommodityTagView
 
@@ -53,6 +54,7 @@
 //        }else{
         tagmodel.tagWidth = realSize.width;
 //        }
+        
     }
 
 }
@@ -78,7 +80,7 @@
     
     myCollectionView.delegate = self;
     myCollectionView.dataSource = self;
-    myCollectionView.showsHorizontalScrollIndicator = NO;
+    myCollectionView.showsVerticalScrollIndicator = NO;
     myCollectionView.backgroundColor = [UIColor whiteColor];
 
     [myCollectionView registerNib:[UINib nibWithNibName:@"TagCell" bundle:nil] forCellWithReuseIdentifier:@"TagCell"];
@@ -166,11 +168,11 @@
     cell.tagLabel.text = tagmodel.tagName;
     
     if (tagmodel.modelSelected) {
-        [cell setBackgroundColor:[UIColor redColor]];
+        [cell setBackgroundColor:RedColor];
         [cell.tagLabel setTextColor:[UIColor whiteColor]];
     }else{
         [cell setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
-        [cell.tagLabel setTextColor:[UIColor blackColor]];
+        [cell.tagLabel setTextColor:[UIColor darkGrayColor]];
     }
     
     
@@ -184,6 +186,23 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    CommodityModel *commModel = self.commodityModelArray[indexPath.section];
+    
+    
+    for (TagModel *tModel in commModel.tagModelArray) {
+        tModel.modelSelected = NO;
+    }
+    
+    TagModel *tagmodel = commModel.tagModelArray[indexPath.row];
+    
+    tagmodel.modelSelected = YES;
+    
+    [collectionView reloadData];
+    
+    //然后做选中的实现
+    
+    
     
 }
 
