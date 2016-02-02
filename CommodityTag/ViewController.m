@@ -75,7 +75,7 @@
         
         TagModel *tag3 = [[TagModel alloc]init];
         tag3.tagID = 3;
-        tag3.tagName = @"银白色";
+        tag3.tagName = @"银白色XXX";
         tag3.modelSelected = NO;
         
         TagModel *tag4 = [[TagModel alloc]init];
@@ -83,10 +83,22 @@
         tag4.tagName = @"脑残粉（粉色）";
         tag4.modelSelected = NO;
         
+        TagModel *tag5 = [[TagModel alloc]init];
+        tag5.tagID = 5;
+        tag5.tagName = @"紫灰细金色";
+        tag5.modelSelected = NO;
+        
+        TagModel *tag6 = [[TagModel alloc]init];
+        tag6.tagID = 6;
+        tag6.tagName = @"宝蓝色";
+        tag6.modelSelected = NO;
+        
+        
+        
         CommodityModel *commModel1 = [[CommodityModel alloc]init];
         commModel1.commodityID = 1;
         commModel1.commodityName = @"机身颜色";
-        NSArray *arr1 = [[NSArray alloc]initWithObjects:tag1, tag2, tag3, tag4, nil];
+        NSArray *arr1 = [[NSArray alloc]initWithObjects:tag1, tag2, tag3, tag4, tag5, tag6,nil];
 
         commModel1.tagModelArray = arr1;
         

@@ -157,9 +157,24 @@
 //cell样式
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
+    TagCell *eCell;
+    
+    if (indexPath.row > 0) {
+        eCell = (TagCell *)[collectionView cellForItemAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row-1 inSection:indexPath.section]];
+    }
+    
+    float eSize = eCell.frame.origin.x;
+    
     TagCell *cell = [TagCell cellWithCollectionView:collectionView andIndexPath:indexPath];
     
-//    TagCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"TagCell" forIndexPath:indexPath];
+    CGRect cellRect = cell.frame;
+    
+    if (cellRect.origin.x > eSize) {
+        cellRect.origin.x = eSize + eCell.frame.size.width + HorizontalMargin;
+        
+        [cell setFrame:cellRect];
+    }
+    
     
     CommodityModel *commModel = self.commodityModelArray[indexPath.section];
     
