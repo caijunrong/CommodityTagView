@@ -26,7 +26,7 @@
     
     [self.view setBackgroundColor:[UIColor purpleColor]];
     
-    CommodityTagView *commView = [[CommodityTagView alloc]initWithFrame:CGRectMake(0, 150, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    CommodityTagView *commView = [[CommodityTagView alloc]initWithFrame:CGRectMake(0, 300, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 300)];
     
     //先在控制器中产生数据
     [self initCommModelArray];

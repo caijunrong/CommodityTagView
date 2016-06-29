@@ -15,17 +15,18 @@
 		604D93D51BD9E2EE00C55A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604D93D31BD9E2EE00C55A98 /* LaunchScreen.storyboard */; };
 		604D93E01BD9E2EF00C55A98 /* CommodityTagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93DF1BD9E2EF00C55A98 /* CommodityTagTests.m */; };
 		604D93EB1BD9E2EF00C55A98 /* CommodityTagUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93EA1BD9E2EF00C55A98 /* CommodityTagUITests.m */; };
-		604D93FD1BD9E3E600C55A98 /* CommodityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93FC1BD9E3E600C55A98 /* CommodityModel.m */; settings = {ASSET_TAGS = (); }; };
-		604D94001BD9E3F200C55A98 /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93FF1BD9E3F200C55A98 /* TagModel.m */; settings = {ASSET_TAGS = (); }; };
-		604D94031BDA06EE00C55A98 /* CommodityTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D94021BDA06EE00C55A98 /* CommodityTagView.m */; settings = {ASSET_TAGS = (); }; };
-		604D940A1BDA10E900C55A98 /* TagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D94081BDA10E900C55A98 /* TagCell.m */; settings = {ASSET_TAGS = (); }; };
-		604D940B1BDA10E900C55A98 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D94091BDA10E900C55A98 /* TagCell.xib */; settings = {ASSET_TAGS = (); }; };
+		604D93FD1BD9E3E600C55A98 /* CommodityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93FC1BD9E3E600C55A98 /* CommodityModel.m */; };
+		604D94001BD9E3F200C55A98 /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D93FF1BD9E3F200C55A98 /* TagModel.m */; };
+		604D94031BDA06EE00C55A98 /* CommodityTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D94021BDA06EE00C55A98 /* CommodityTagView.m */; };
+		604D940A1BDA10E900C55A98 /* TagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D94081BDA10E900C55A98 /* TagCell.m */; };
+		604D940B1BDA10E900C55A98 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D94091BDA10E900C55A98 /* TagCell.xib */; };
 		604D940D1BDA140700C55A98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604D940C1BDA140700C55A98 /* Foundation.framework */; };
-		604D94101BDA156600C55A98 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D940F1BDA156600C55A98 /* NSString+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		604D94101BDA156600C55A98 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D940F1BDA156600C55A98 /* NSString+Extension.m */; };
 		604D94121BDA15F900C55A98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604D94111BDA15F900C55A98 /* CoreGraphics.framework */; };
 		604D94141BDA166300C55A98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604D94131BDA166300C55A98 /* UIKit.framework */; };
-		604D941D1BDA314B00C55A98 /* CollectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D941B1BDA314B00C55A98 /* CollectionHeadView.m */; settings = {ASSET_TAGS = (); }; };
-		604D941E1BDA314B00C55A98 /* CollectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D941C1BDA314B00C55A98 /* CollectionHeadView.xib */; settings = {ASSET_TAGS = (); }; };
+		604D941D1BDA314B00C55A98 /* CollectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 604D941B1BDA314B00C55A98 /* CollectionHeadView.m */; };
+		604D941E1BDA314B00C55A98 /* CollectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D941C1BDA314B00C55A98 /* CollectionHeadView.xib */; };
+		6088928F1D23803C0096132B /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6088928E1D23803C0096132B /* UICollectionViewLeftAlignedLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		604D941A1BDA314B00C55A98 /* CollectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeadView.h; sourceTree = "<group>"; };
 		604D941B1BDA314B00C55A98 /* CollectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeadView.m; sourceTree = "<group>"; };
 		604D941C1BDA314B00C55A98 /* CollectionHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeadView.xib; sourceTree = "<group>"; };
+		6088928D1D23803C0096132B /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		6088928E1D23803C0096132B /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,7 @@
 		604D93C41BD9E2EE00C55A98 /* CommodityTag */ = {
 			isa = PBXGroup;
 			children = (
+				6088928C1D2380140096132B /* FlowLayout */,
 				604D93F81BD9E36200C55A98 /* CommodityTagView */,
 				604D93C81BD9E2EE00C55A98 /* AppDelegate.h */,
 				604D93C91BD9E2EE00C55A98 /* AppDelegate.m */,
@@ -210,6 +214,15 @@
 				604D93FF1BD9E3F200C55A98 /* TagModel.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		6088928C1D2380140096132B /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6088928D1D23803C0096132B /* UICollectionViewLeftAlignedLayout.h */,
+				6088928E1D23803C0096132B /* UICollectionViewLeftAlignedLayout.m */,
+			);
+			name = FlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +361,7 @@
 				604D93CD1BD9E2EE00C55A98 /* ViewController.m in Sources */,
 				604D93FD1BD9E3E600C55A98 /* CommodityModel.m in Sources */,
 				604D93CA1BD9E2EE00C55A98 /* AppDelegate.m in Sources */,
+				6088928F1D23803C0096132B /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				604D941D1BDA314B00C55A98 /* CollectionHeadView.m in Sources */,
 				604D94031BDA06EE00C55A98 /* CommodityTagView.m in Sources */,
 				604D94001BD9E3F200C55A98 /* TagModel.m in Sources */,
@@ -578,6 +592,7 @@
 				604D93F11BD9E2EF00C55A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		604D93F21BD9E2EF00C55A98 /* Build configuration list for PBXNativeTarget "CommodityTagTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +601,7 @@
 				604D93F41BD9E2EF00C55A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		604D93F51BD9E2EF00C55A98 /* Build configuration list for PBXNativeTarget "CommodityTagUITests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +610,7 @@
 				604D93F71BD9E2EF00C55A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,6 +12,7 @@
 #import "TagModel.h"
 #import "TagCell.h"
 #import "CollectionHeadView.h"
+#import "UICollectionViewLeftAlignedLayout.h"
 
 #define fontSize 12
 #define HorizontalMargin 14
@@ -67,7 +68,8 @@
     //先把宽度算好
     [self initCommodityModelArray:commModelArray];
     
-    UICollectionViewFlowLayout *flowLayout= [[UICollectionViewFlowLayout alloc]init];
+    
+    UICollectionViewLeftAlignedLayout *flowLayout= [[UICollectionViewLeftAlignedLayout alloc]init];
     //修改
     flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
     flowLayout.minimumLineSpacing = HorizontalMargin;
@@ -76,7 +78,7 @@
     
     UICollectionView *myCollectionView;
     
-    myCollectionView = [[UICollectionView alloc] initWithFrame:self.frame collectionViewLayout:flowLayout];
+    myCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height) collectionViewLayout:flowLayout];
     
     myCollectionView.delegate = self;
     myCollectionView.dataSource = self;
@@ -157,24 +159,8 @@
 //cell样式
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    TagCell *eCell;
-    
-    if (indexPath.row > 0) {
-        eCell = (TagCell *)[collectionView cellForItemAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row-1 inSection:indexPath.section]];
-    }
-    
-    float eSize = eCell.frame.origin.x;
     
     TagCell *cell = [TagCell cellWithCollectionView:collectionView andIndexPath:indexPath];
-    
-    CGRect cellRect = cell.frame;
-    
-    if (cellRect.origin.x > eSize) {
-        cellRect.origin.x = eSize + eCell.frame.size.width + HorizontalMargin;
-        
-        [cell setFrame:cellRect];
-    }
-    
     
     CommodityModel *commModel = self.commodityModelArray[indexPath.section];
     
